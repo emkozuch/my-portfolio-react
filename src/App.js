@@ -14,7 +14,7 @@ function App() {
         <Layout>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/porftolio" component={Portfolio} />
+        <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         </Layout>
     </div>

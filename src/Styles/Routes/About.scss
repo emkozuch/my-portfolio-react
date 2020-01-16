@@ -1,79 +1,61 @@
-.about-container {
-  // border: 1px solid white;
-  width: 70%;
-  height: 100%;
-  margin: 50px 0;
-  max-height: 100%;
-  .about-info-container {
-    width: 60%;
-    p {
-      text-align: justify;
-    }
-  }
-  .skills-section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    .section-title {
-      border-bottom: 1px solid #04a2df;
-      padding: 0 9px;
-      position: relative;
-      &::after {
-        content: "";
-        height: 35%;
-        border-left: 2px solid #04a2df;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-      }
-      &::before {
-        content: "";
-        height: 35%;
-        border-left: 2px solid #04a2df;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-      }
-      h3 {
-        margin: 0;
-      }
-    }
-    .skills-container {
-        margin-top: 50px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto;
-        width: 100%;
-        
-       
-      .skill-level-container {
-        display: grid;
-        grid-template-rows: 50px auto;
-        border-right: 1px dashed white;
-        &:last-of-type{
-            border-right: none;
-        }
-        .level-title{
-            text-align: center;
-        }
-        .skills{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-      }
-    }
+.about-info-container {
+  width: 60%;
+  p {
+    text-align: justify;
   }
 }
-.route-title-container {
+.skills-section-container {
   display: flex;
-  border-bottom: 1px dashed #777;
-  color: #04a2df;
-  justify-content: space-between;
-  .route-icon {
-    width: 50px;
-    fill: #04a2df;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  .section-title {
+    border-bottom: 1px solid #04a2df;
+    padding: 0 9px;
+    position: relative;
+    &::after {
+      content: "";
+      height: 35%;
+      border-left: 2px solid #04a2df;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+    &::before {
+      content: "";
+      height: 35%;
+      border-left: 2px solid #04a2df;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+    h3 {
+      margin: 0;
+    }
+  }
+  .skills-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    width: 100%;
+
+    .skill-level-container {
+      display: grid;
+      grid-template-rows: 50px auto;
+      border-right: 1px dashed white;
+      &:last-of-type {
+        border-right: none;
+      }
+      .level-title {
+        text-align: center;
+      }
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+    }
   }
 }
