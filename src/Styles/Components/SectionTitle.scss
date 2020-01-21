@@ -1,0 +1,25 @@
+.section-title {
+    border-bottom: 1px solid #04a2df;
+    padding: 0 9px;
+    position: relative;
+    font-size: 22px;
+    &::after {
+      content: "";
+      height: 35%;
+      border-left: 2px solid #04a2df;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+    &::before {
+      content: "";
+      height: 35%;
+      border-left: 2px solid #04a2df;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+    h3 {
+      margin: 0;
+    }
+  }

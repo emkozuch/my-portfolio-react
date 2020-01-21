@@ -20,7 +20,7 @@ class Portfolio extends Component {
     render() {
         return (
             <RouteContainer>
-                <RouteTitle title="Portfolio" src={workIcon} />
+                <RouteTitle title="Portfolio." src={workIcon} />
                 <Filter parentCallback={this.callbackFunction} />
                 <div className="projects-container">
                     {projects.map((project) => {
